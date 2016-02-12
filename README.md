@@ -25,5 +25,5 @@ docker run -d -P ryanratcliff/mviewer
 
 ### To startup with data directory located on host and specific port exposed
 ```
-docker run -d p 8080:80 ryanratcliff/mviewer
+docker run -d -p 8080:80 ryanratcliff/mviewer
 ```
